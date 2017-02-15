@@ -1,22 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Personal Webpage</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<title>Página persnal</title>  
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-12" style="background-color:lavender;">
-		<img src="assets/ULLLogo.jpg" alt="ULL">
+	<div class="container-fluid Content">
+		<div class="row Cabecera">
+			<div class="col-xs-12">
+				<h1 align=center>Página personal: Ángel Alberto Hamilton López</h1>         
+			</div>
+		</div>
+		<div class="row">    
+			<div class="col-xs-12 Index">
+				<ul class="nav nav-pills Menú">
+					<li class="active"><a data-toggle="tab" href="#principal">General</a></li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Procesadores de Lenguajes<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a data-toggle="tab" href="#PLprac1">Práctica1: Tareas Iniciales</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row Main">     
+			<div class="col-xs-12">
+				<div class="tab-content">
+					<div id="principal" class="tab-pane in active">
+						<h3><u>Informacion sobre mí</u></h3>
+						<img src="assets/ULLLogo.jpg" alt="ULL" class="img-responsive img-rounded Logo ">
+						<p>Estudiante de ingeniería informática en la Universidad de La Laguna, itinerario de compuación.</p>
+						<p>En esta página planteo recoger las prácticas que haga desde el 2º cuatrimestre del 3º curso en adelante con sus respectivos repertorios en GitHub.</p>
+					</div>
+					<div id="PLprac1" class="tab-pane">
+						<h3><u>Tareas iniciales</u></h3>
+						<p>En esta práctica instalamos y aprendemos a utilizar las herramientas que vamos a necesitar durante este cuatrimestre en la asignatura. También creamos un Gitbook con un manual sobre lo que hemos hecho</p>
+						<ul class="list-group">
+							<li class="list-group-item list"><a href="https://github.com/ULL-ESIT-PL-1617/tareas-iniciales-angel-oscar-norberto">GitHub</a></li>
+							<li class="list-group-item list"><a href="https://alu0100825893.gitbooks.io/manual/content/">gh-pages</a></li>
+							<li class="list-group-item list"><a href="https://ull-esit-pl-1617.github.io/tareas-iniciales-angel-oscar-norberto/">Gitbook</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="row footer">
+				<div class="col-xs-2"></div>
+				<div class="col-xs-8">
+					<footer>
+						<p>Contacto: alu0100825893@ull.edu.es</p>
+						<p>Contacto alternativo: angehl@gmail.com</p>
+					</footer>
+				</div>
+				<div class="col-xs-2"></div>
+			</div>
+		</div>
 	</div>
-  </div>
-</div>
-
 </body>
 </html>
