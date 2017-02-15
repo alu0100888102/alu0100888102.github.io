@@ -5,19 +5,20 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<div class="container-fluid Content">
-		<div class="row Cabecera">
+		<div class="row cabecera">
 			<div class="col-xs-12">
 				<h1 align=center>Página personal: Ángel Alberto Hamilton López</h1>         
 			</div>
 		</div>
-		<div class="row">    
-			<div class="col-xs-12 Index">
-				<ul class="nav nav-pills Menú">
+		<div class="row index">    
+			<div class="col-xs-12 index">
+				<ul class="nav nav-pills">
 					<li class="active"><a data-toggle="tab" href="#principal">General</a></li>
 					<li class="dropdown">
 						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Procesadores de Lenguajes<span class="caret"></span></a>
@@ -25,10 +26,16 @@
 							<li><a data-toggle="tab" href="#PLprac1">Práctica1: Tareas Iniciales</a></li>
 						</ul>
 					</li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Programación de Aplicaciones Interactivas<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a data-toggle="tab" href="#PAIprac2">Práctica2: Introducción a Java</a></li>
+						</ul>
+					</li>
 				</ul>
 			</div>
 		</div>
-		<div class="row Main">     
+		<div class="row main">     
 			<div class="col-xs-12">
 				<div class="tab-content">
 					<div id="principal" class="tab-pane in active">
@@ -46,19 +53,24 @@
 							<li class="list-group-item list"><a href="https://ull-esit-pl-1617.github.io/tareas-iniciales-angel-oscar-norberto/">Gitbook</a></li>
 						</ul>
 					</div>
+					<div id="PAIprac2" class="tab-pane">
+						<h3><u>Introducción a Java</u></h3>
+						<p>En esta práctica realizamos una serie de ejercicios en casa y otros en clase para empezar a familiarizarnos y a trabajar con Java.</p>
+						<ul class="list-group">
+							<li class="list-group-item list"><a href="https://github.com/alu0100888102/EjerciciosJavaPAIP2">GitHub</a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
-			<div class="row footer">
-				<div class="col-xs-2"></div>
-				<div class="col-xs-8">
+		</div>
+		<div class="row">
+				<div class="col-xs-12">
 					<footer>
 						<p>Contacto: alu0100825893@ull.edu.es</p>
 						<p>Contacto alternativo: angehl@gmail.com</p>
 					</footer>
 				</div>
-				<div class="col-xs-2"></div>
 			</div>
-		</div>
 	</div>
 </body>
 </html>

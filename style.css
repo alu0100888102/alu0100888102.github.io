@@ -1,0 +1,33 @@
+body {
+    background-color: lightblue;
+	background-image: url(assets/BlueBackground.jpg);
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+.main{
+	background-color: lightblue;
+	background-image: url(assets/WhiteBackground.jpg);
+	font-family: Times;
+}
+.index{
+	background-color: rgb(180, 191, 255);
+}
+.cabecera{
+}
+h3{
+	color: darkgreen;
+}
+footer{
+	color: White;
+	font-size: 12px;
+	text-align: right;
+	background-color: lightblue;
+}
